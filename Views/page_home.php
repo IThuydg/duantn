@@ -1,6 +1,6 @@
 
       <section class="new-products">
-        <h2>Sản phẩm mới</h2>
+        <h2>Sản phẩm</h2>
 
         <?php foreach($productList as $product): ?>
         <div class="product">
