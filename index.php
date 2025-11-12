@@ -3,6 +3,9 @@
 session_start();
 
 include_once "./Views/layout_header.php";
+echo '<div style="text-align:center; margin: 20px 0;">
+        <img src="./public/img/banner.png" alt="Banner" style="max-width:100%; height:auto;">
+      </div>';
 if (isset($_GET['ctrl']) && isset($_GET['act'])) {
     // neu co yeu cau dieu huong -> chuyen den controller theo yeu cau
     include_once "./Controllers/". ucfirst($_GET['ctrl'])."Controller.php";
